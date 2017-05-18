@@ -1,1 +1,46 @@
 /* YOUR CUSTOM STYLES */
+html,
+body {
+    height: 100%;
+}
+
+/* Navigation*/
+.navbar {
+    background-color: #293a48;
+}
+
+footer.page-footer {
+    background-color: #293a48;
+    margin-top: 2rem;
+}
+
+/* Carousel*/
+.carousel {
+    height: 40%;
+}
+
+@media (max-width: 776px) {
+    .carousel {
+        height: 100%;
+    }
+}
+
+.carousel-item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/*Caption*/
+.flex-center {
+    color: #fff;
+}
+
+.widget-wrapper {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 2rem;
+}
