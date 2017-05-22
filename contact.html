@@ -14,7 +14,7 @@
     <!-- Material Design Bootstrap -->
     <link href="css/mdb.css" rel="stylesheet">
     
-    <link href="css/style.css" rel="stylesheet">
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
 </head>
 
 <body>
@@ -33,8 +33,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">ホーム</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link">組織案内 <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="org.html">組織案内</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link">お知らせ</a>
@@ -45,8 +45,8 @@
                     <li class="nav-item">
                         <a class="nav-link">イベント</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">お問合せ</a>
+                    <li class="nav-item active">
+                        <a class="nav-link">お問合せ <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
@@ -55,73 +55,115 @@
     <!--/.Navbar-->
 
     <br>
+
     <!--Content-->
     <div class="container">
-        <div class="row">
-            <!--Main column-->
-            <div class="col-lg-10 col-md-12">
-                <!--Documentation file-->
-                <div class="documentation">
-                    <!-- ******-->
-                    <h3>組織情報</h3>
+        
+        <!--Section: Contact v.1-->
+        <section class="section mb-4">
 
-                    <!-- FIRST SECTION-->
-                    <section id="introduction">
-                        <h5 class="doc-title doc-first">組織ビジョン</h5>
-                        <hr>
-                        <p>多種多様なモバイル端末へのコンテンツサプライを可能にするソフトとサービスの提供を事業ドメインとしております。
-                        <br>屋外での無線LANサービスエリアは、駅・空港に加え、つくばエクスプレスなど一部電車の中まで広がりはじめ、移動中にネット経由でコンテンツをダウンロード・活用するというスタイルが普及の兆しを見せております。</p> 
-                    </section>
-                    <!-- FIRST SECTION-->
+            <!--Section heading-->
+            <h1 class="section-heading">Contact v.1</h1>
+            <!--Section sescription-->
+            <p class="section-description mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>
+
+            <div class="row">
+
+                <!--First column-->
+                <div class="col-md-5">
+
                     
-                    <br>
+                    <!--Naked Form-->
+                    <div class="card-block">
 
-                    <!-- SECTION-->
-                    <section id="usage">
-                        <h5 class="doc-title">組織概要</h5>
-                        <hr>
-                        <p><strong>組織名称: </strong>台湾華商観光産業協会</p>
+                        <!--Header-->
+                        <div class="text-center">
+                            <h3><i class="fa fa-envelope"></i> Write to us:</h3>
+                            <hr class="mt-2 mb-2">
+                        </div>
 
-                        <p><strong>所在地: </strong>Use a following script to set a desired values.</p>
-                        <p><strong>創立: </strong>1998年9月4日</p>
-                        <p>Note: If no stopper id or class is provided, by default script uses 'sticky-stopper'. You can also use number values for pixel points on the y-axis.</p>
+                        <!--Body-->
+                        <p>We'll write rarely, but only the best content.</p>
+                        <br>
 
-                        <ul class="list-group">
-                          <li class="list-group-item"><strong>組織名称: </strong>台湾華商観光産業協会</li>
-                          <li class="list-group-item"><strong>所在地: </strong>Use a following script to set a desired values.</li>
-                          <li class="list-group-item">Morbi leo risus</li>
-                          <li class="list-group-item">Porta ac consectetur ac</li>
-                          <li class="list-group-item">Vestibulum at eros</li>
-                        </ul>
-                    </section>
-                    <!-- SECTION-->
-                    
-                    <br>
+                        <!--Body-->
+                        <div class="md-form">
+                            <i class="fa fa-user prefix"></i>
+                            <input type="text" id="form3" class="form-control">
+                            <label for="form3">Your name</label>
+                        </div>
 
-                    <!-- SECTION-->
-                    <section id="work">
-                        <h5 class="doc-title">事業内容</h5>
-                        <hr>
-                        <p>急拡大を続けるモバイルマーケットでのソフトウェア・新サービス提供</p>
-                    </section>
-                    <!-- SECTION-->
-                    <!-- ******-->
+                        <div class="md-form">
+                            <i class="fa fa-envelope prefix"></i>
+                            <input type="text" id="form2" class="form-control">
+                            <label for="form2">Your email</label>
+                        </div>
+
+                        <div class="md-form">
+                            <i class="fa fa-tag prefix"></i>
+                            <input type="text" id="form32" class="form-control">
+                            <label for="form32">Subject</label>
+                        </div>
+
+                        <div class="md-form">
+                            <i class="fa fa-pencil prefix"></i>
+                            <textarea type="text" id="form8" class="md-textarea"></textarea>
+                            <label for="form8">Icon Prefix</label>
+                        </div>
+
+                        <div class="text-center">
+                            <button class="btn btn-default">Submit</button>
+
+                            <div class="call">
+                                <br>
+                                <p>Or would you prefer to call?
+                                    <br>
+                                    <span><i class="fa fa-phone"> </i></span> + 01 234 565 280</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--Naked Form-->
+
+
                 </div>
-                <!--/.Documentation file-->                            
+                <!--/First column-->
+
+                <!--Second column-->
+                <div class="col-md-7">
+
+                    <!--Google map-->
+                    <div id="map-container" class="z-depth-1-half map-container" style="height: 400px"></div>
+
+                    <br>
+                    <!--Buttons-->
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <a class="btn-floating btn-small mdb-color"><i class="fa fa-map-marker"></i></a>
+                            <p>New York, NY 10012</p>
+                            <p>United States</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a class="btn-floating btn-small mdb-color"><i class="fa fa-phone"></i></a>
+                            <p>+ 01 234 567 89</p>
+                            <p>Mon - Fri, 8:00-22:00</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a class="btn-floating btn-small mdb-color"><i class="fa fa-envelope"></i></a>
+                            <p>info@gmail.com</p>
+                            <p>sale@gmail.com</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!--/Second column-->
+
             </div>
-            <!--/.Main column-->
-            <!-- Right Sidebar -->
-            <div class="col-xs-2">
-                <nav class="bs-docs-sidebar affix" style="top: 60px;">
-                    <ul class="nav nav-pills flex-column">
-                        <li class="nav-item"><a class="nav-link" href="#introduction">組織ビジョン</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#usage">組織概要</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#work">事業内容</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <!--/. Right Sidebar -->
-        </div>
+
+        </section>
+        <!--/Section: Contact v.1-->
 
     </div>
     <!--/.Content-->
@@ -214,10 +256,6 @@
 	<script>
         // Animations init
         new WOW().init();
-        $('body').scrollspy({
-            target: '.bs-docs-sidebar',
-            offset: 40
-        });
     </script>
 </body>
 
