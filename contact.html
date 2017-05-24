@@ -61,22 +61,22 @@
         
         <!--Section: Contact us-->
         <section class="section mb-4">
-
-            <!--Section heading-->
-            <h1 class="section-heading text-center">Contact us</h1>
-            <!--Section sescription-->
-            <p class="section-description mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>
-
             <div class="row">
+                <!--Second column-->
+                <div class="col-md-2">
+                                                          
+                </div>
+                <!--/Second column-->
+
                 <!--First column-->
-                <div class="col-md-5">
+                <div class="col-md-8">
 
                     <!--Naked Form-->
                     <div class="card-block">
 
                         <!--Header-->
                         <div class="text-center">
-                            <h3><i class="fa fa-envelope"></i> Write to us:</h3>
+                            <h3><i class="fa fa-envelope"></i> お問合せ:</h3>
                             <hr class="mt-2 mb-2">
                         </div>
 
@@ -111,50 +111,24 @@
 
                         <div class="text-center">
                             <button class="btn btn-default">Submit</button>
-
                             <div class="call">
                                 <br>
-                                <p>Or would you prefer to call?
-                                    <br>
-                                    <span><i class="fa fa-phone"> </i></span> + 01 234 565 280</p>
+                                <span><i class="fa fa-envelope"></i></span>
+                                <a href="mailto:info@jcti.com?subject=お問合せ" class="mdb-color-text">
+                                      info@jcti.com
+                                </a>
                             </div>
                         </div>
-
                     </div>
                     <!--Naked Form-->
 
-
+                    
                 </div>
                 <!--/First column-->
 
                 <!--Second column-->
-                <div class="col-md-7">
-
-                    <!--Google map-->
-                    <div id="map-container" class="z-depth-1-half map-container" style="height: 400px"></div>
-
-                    <br>
-                    <!--Buttons-->
-                    <div class="row text-center">
-                        <div class="col-md-4">
-                            <i class="fa fa-map-marker fa-2x teal-text"></i>
-                            <p>New York, NY 10012</p>
-                            <p>United States</p>
-                        </div>
-
-                        <div class="col-md-4">
-                            <i class="fa fa-phone fa-2x teal-text"></i>
-                            <p>+ 01 234 567 89</p>
-                            <p>Mon - Fri, 8:00-22:00</p>
-                        </div>
-
-                        <div class="col-md-4">
-                            <i class="fa fa-envelope fa-2x teal-text"></i>
-                            <p>info@gmail.com</p>
-                            <p>sale@gmail.com</p>
-                        </div>
-                    </div>
-
+                <div class="col-md-2">
+                                                          
                 </div>
                 <!--/Second column-->
             </div>
@@ -250,30 +224,9 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
 
-    <script src="https://maps.google.co.jp/maps/api/js"></script>
-    
 	<script>
         // Animations init
         new WOW().init();
-
-        function init_map() {
-            var var_location = new google.maps.LatLng(35.734856, 139.727556);
-            var var_mapoptions = {
-                center: var_location,
-                zoom: 16
-            };
-
-            var var_marker = new google.maps.Marker({
-                position: var_location,
-                map: var_map,
-                title: "JCTI"
-            });
-
-            var var_map = new google.maps.Map(document.getElementById("map-container"), var_mapoptions);
-            var_marker.setMap(var_map);
-        }
-
-        google.maps.event.addDomListener(window, 'load', init_map);
     </script>
 </body>
 

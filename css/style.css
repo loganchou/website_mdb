@@ -3,6 +3,7 @@
 html,
 body {
     height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', '游ゴシック  Medium', meiryo, sans-serif;
 }
 
 /* Navigation*/
@@ -26,8 +27,7 @@ footer.page-footer {
     }
 }
 
-.carousel-item,
-.active {
+.carousel-item {
     height: 100%;
 }
 
