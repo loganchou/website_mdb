@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="jp">
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>協会会員施設【宿泊施設一覧 】</title>
-	<!-- Font Awesome -->
+    <title>協会会員施設【食事施設一覧 】</title>
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -36,11 +36,11 @@
                     <li class="nav-item">
                         <a class="nav-link">ワーキングホリデー</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link">宿泊 <span class="sr-only">(current)</span></a>
-                    </li>
                     <li class="nav-item">
-                        <a href="restaurant.html" class="nav-link">食事</a>
+                        <a href="lodging.html" class="nav-link">宿泊</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link">食事 <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link">不動産</a>
@@ -60,19 +60,19 @@
     <div class="container">
         <!--Page heading-->
         <div class="card">
-            <h3 class="card-header default-color-dark white-text">宿泊施設一覧</h3>
+            <h3 class="card-header badge-danger white-text">食事施設一覧</h3>
             <div class="card-block">
-                <blockquote class="blockquote bq-primary card-title">
-                    <a href="#hotel">ホテル</a> / <a href="#jp_hotel">旅　館</a> / <a href="#houses">民　宿</a>
+                <blockquote class="blockquote bq-danger card-title">
+                    <a href="#jp_food">日本料理</a> / <a href="#tw_food">台湾料理</a>
                 </blockquote>
             </div>
         </div>
         <!--/.Page heading-->
         <br>
         <br>
-        <div class="card success-color-dark text-center z-depth-2 mb-1">
+        <div id="jp_food" class="card card-danger text-center z-depth-2 mb-1">
             <div class="card-block">
-                <p class="white-text mb-0 h4"><strong>ホテル</strong></p>
+                <p class="white-text mb-0 h4"><strong>日本料理</strong></p>
             </div>
         </div>
         <hr>
@@ -94,16 +94,16 @@
 
             <!--Post excerpt-->
             <div class="col-lg-9">
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title">Post title</h4>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit molestias voluptates incidunt tempora ducimus! At cum iusto necessitatibus sed omnis nemo natus. </p>
                 <div class="read-more">
-                    <a href="#!" class="btn btn-dark-green">Read more</a>
+                    <a href="#!" class="btn btn-danger">Read more</a>
                 </div>
             </div>
             <!--/.Post excerpt-->
         </div>
         <!--/.First row-->
-        <hr>
+        <hr class="extra-margin">
 
         <!--Second row-->
         <div class="row wow fadeIn" data-wow-delay="0.2s">
@@ -125,22 +125,13 @@
                 <h4 class="card-title">Second row</h4>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit molestias voluptates incidunt tempora ducimus! At cum iusto necessitatibus sed omnis nemo natus. </p>
                 <div class="read-more">
-                    <a href="#!" class="btn btn-dark-green">Read more</a>
+                    <a href="#!" class="btn btn-danger">Read more</a>
                 </div>
             </div>
             <!--/.Post excerpt-->
         </div>
         <!--/.Second row-->
-        <hr>
-        <br>
-
-        <div id="jp_hotel" class="card success-color-dark text-center z-depth-2 mb-1">
-            <div class="card-block">
-                <p class="white-text mb-0 h4"><strong>旅　館</strong></p>
-            </div>
-        </div>
-
-        <hr>
+        <hr class="extra-margin">
 
         <!--Third row-->
         <div class="row wow fadeIn" data-wow-delay="0.2s">
@@ -162,14 +153,21 @@
                 <h4 class="card-title">Third row</h4>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit molestias voluptates incidunt tempora ducimus! At cum iusto necessitatibus sed omnis nemo natus. </p>
                 <div class="read-more">
-                    <a href="#!" class="btn btn-dark-green">Read more</a>
+                    <a href="#!" class="btn btn-danger">Read more</a>
                 </div>
             </div>
             <!--/.Post excerpt-->
         </div>
         <!--/.Third row-->
         <hr>
+        <br>
 
+        <div id="tw_food" class="card card-danger text-center z-depth-2 mb-1">
+            <div class="card-block">
+                <p class="white-text mb-0 h4"><strong>台湾料理</strong></p>
+            </div>
+        </div>
+        <hr>
         <!--Fourth row-->
         <div class="row wow fadeIn" data-wow-delay="0.2s">
            <!--Featured image-->
@@ -190,22 +188,14 @@
                 <h4 class="card-title">Fourth row</h4>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit molestias voluptates incidunt tempora ducimus! At cum iusto necessitatibus sed omnis nemo natus. </p>
                 <div class="read-more">
-                    <a href="#!" class="btn btn-dark-green">Read more</a>
+                    <a href="#!" class="btn btn-danger">Read more</a>
                 </div>
             </div>
             <!--/.Post excerpt-->
         </div>
         <!--/.Fourth row-->
-        <hr>
-        <br>
+        <hr class="extra-margin">
 
-        <div id="houses" class="card success-color-dark text-center z-depth-2 mb-1">
-            <div class="card-block">
-                <p class="white-text mb-0 h4"><strong>民　宿</strong></p>
-            </div>
-        </div>
-
-        <hr>
         <!--Fifth row-->
         <div class="row wow fadeIn" data-wow-delay="0.2s">
            <!--Featured image-->
@@ -226,39 +216,15 @@
                 <h4 class="card-title">Fifth row</h4>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit molestias voluptates incidunt tempora ducimus! At cum iusto necessitatibus sed omnis nemo natus. </p>
                 <div class="read-more">
-                    <a href="#!" class="btn btn-dark-green">Read more</a>
+                    <a href="#!" class="btn btn-danger">Read more</a>
                 </div>
             </div>
             <!--/.Post excerpt-->
         </div>
         <!--/.Fifth row-->
+        <br>
         <hr>
 
-        <!--Pagination-->
-<!--         <nav class="row flex-center wow fadeIn" data-wow-delay="0.2s">
-            <ul class="pagination">
-                <li class="page-item disabled">
-                    <a class="page-link" href="#!" aria-label="Previous">
-                        <span aria-hidden="true">&laquo;</span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                </li>
-                <li class="page-item active">
-                    <a class="page-link" href="#!">1 <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="page-item"><a class="page-link" href="#!">2</a></li>
-                <li class="page-item"><a class="page-link" href="#!">3</a></li>
-                <li class="page-item"><a class="page-link" href="#!">4</a></li>
-                <li class="page-item"><a class="page-link" href="#!">5</a></li>
-                <li class="page-item">
-                    <a class="page-link" href="#!" aria-label="Next">
-                        <span aria-hidden="true">&raquo;</span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </li>
-            </ul>
-        </nav> -->
-        <!--/.Pagination-->
     </div>
     <!--/.Main layout-->
 
@@ -333,7 +299,7 @@
     </footer>
     <!--/.Footer-->
 
-	
+    
     <!-- SCRIPTS -->
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
@@ -344,7 +310,7 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
     
-	
+    
 </body>
 
 </html>
